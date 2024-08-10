@@ -72,7 +72,13 @@ p {
     line-height: 1.8;
     text-transform: initial;
 }
-img{border:none;max-width:100%; height:auto;}
+img{
+    
+    border:none;
+    max-width:100%; 
+    height:auto;
+
+}
 ul{
 	padding: 0;
     margin: 0 auto;
@@ -201,8 +207,8 @@ nav.navbar.bootsnav ul.nav > li > a {
     transition: 0.3s linear;
 }
 nav.navbar.bootsnav ul.nav > li > a {padding:34px 21px;}
-nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus{color: #ff545a;}
-nav.navbar.bootsnav ul.nav > li.active>a {color: #ff545a;}
+nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus{color: green;}
+nav.navbar.bootsnav ul.nav > li.active>a {color: green;}
 
 nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
     content: "";
@@ -243,7 +249,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 --------------------------------------*/
 .welcome-hero {
     position: relative;
-    background:url(../images/welcome-hero/Eh3cLEbWoAIP5Nx.jpg)no-repeat;
+    background:url(../images/welcome-hero/WhatsApp\ Image\ 2024-06-27\ at\ 1.52.21\ PM\ \(12\).jpeg)no-repeat;
     background-position:center;
     background-size:cover;
     text-align: center;
@@ -320,7 +326,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     color:  #fff;
     width:  170px;
     height:  70px;
-    background:  #ff545a;
+    background:  red;
     text-transform:  capitalize;
     margin-left:  30px;
     border-radius: 3px;
@@ -330,7 +336,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     -o-transition: 0.3s linear; 
     transition: 0.3s linear;
 }
-.welcome-hero-btn:hover{/*background: #fd4043;*/background: #f43032;}
+.welcome-hero-btn:hover{/*background: #fd4043;*/background: red;}
 
 .welcome-hero-btn svg {
     width:  14px;
@@ -415,7 +421,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 .single-how-works p {margin-bottom: 25px;text-transform: initial;}
 
 .single-how-works-icon [class^="flaticon-"]:before,.single-how-works-icon [class*=" flaticon-"]:before,.single-how-works-icon [class^="flaticon-"]:after,.single-how-works-icon [class*=" flaticon-"]:after {font-size: 35px;}
-.single-how-works:hover .single-how-works-icon [class^="flaticon-"]:before,.single-how-works:hover .single-how-works-icon [class*=" flaticon-"]:before,.single-how-works:hover .single-how-works-icon [class^="flaticon-"]:after,.single-how-works:hover .single-how-works-icon [class*=" flaticon-"]:after {color:#ff545a;}
+.single-how-works:hover .single-how-works-icon [class^="flaticon-"]:before,.single-how-works:hover .single-how-works-icon [class*=" flaticon-"]:before,.single-how-works:hover .single-how-works-icon [class^="flaticon-"]:after,.single-how-works:hover .single-how-works-icon [class*=" flaticon-"]:after {color:#3cdd57;}
 
 .welcome-hero-btn.how-work-btn {
     display: inline-block;
@@ -432,7 +438,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 .single-how-works:hover h2 a,.single-how-works:hover p{color: #fff;}
 .single-how-works:hover .single-how-works-icon{background: #fff;}
 .single-how-works:hover .welcome-hero-btn.how-work-btn{background: #fff;color: #ff545a;}
-.single-how-works:hover{box-shadow: 0 0px 10px rgba(71,71,71,.4);background: #ff545a;}
+.single-how-works:hover{box-shadow: 0 0px 10px rgba(71,71,71,.4);background: #3cdd57;}
 
 /*-------------------------------------
         7. Explore
@@ -747,7 +753,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     text-transform: uppercase;
 }
 
-.single-blog-item:hover h2 a {color:#ff545a;}
+.single-blog-item:hover h2 a {color:green;}
+
 .single-blog-item:hover{
     box-shadow: 0 10px 20px rgba(21,19,19,.4);
 }
