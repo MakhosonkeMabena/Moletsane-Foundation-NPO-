@@ -49,6 +49,10 @@ body{
 	overflow-x:hidden;
 }
 
+body:hover{
+    
+}
+
 a,a:hover,a:active,a:focus {
 	display:inline-block;
 	text-decoration:none;
@@ -89,9 +93,9 @@ ul li {
 	
 }
 select,input,textarea,button{box-shadow:none;outline:0!important;}
-button {background: transparent;border: 0;font-size: 12px;}
+button {background: transparent;border: 0;font-size: 12px; text-transform: uppercase;}
 
-html,body{height: 100%; background-color: #212427;}
+html,body{height: 100%; background-color: #1d1e1f;}
 
 [placeholder]:focus::-webkit-input-placeholder {
   -webkit-transition: opacity 0.3s 0.3s ease; 
@@ -771,8 +775,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
         11. Subscribe
 --------------------------------------*/
 .subscription{
-    background: #f8fafb;
+    background: #383837;
     padding:150px 0;
+    transition: 3s;
+}
+.subscription:hover{
+    background-color: #1b1e20;
 }
 /*subscribe-title*/
  .subscribe-title {margin-bottom: 52px;}
@@ -781,12 +789,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     font-size:24px;
     font-weight: 500;
     text-transform: uppercase;
+    color: white;
 }
 .subscribe-title p{
     color:#7b8088;
     font-size:16px;
     font-weight: 500;
     margin-top: 28px;
+
 }/*subscribe-title*/
 
 
@@ -813,10 +823,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
      -webkit-transition:0.3s linear;
     -moz-transition:0.3s linear;
     -o-transition:0.3s linear;
-    transition:0.3s linear;
+    transition: 2s linear;
 }
 .subscription-input-group:hover .subscription-input-form{
-    box-shadow: 0 5px 20px rgba(21,19,19,.4);
+    box-shadow: 0 5px 20px rgba(187, 183, 183, 0.4);
+    background-color: #1b1e20;
 }
 /*custom-input-group*/
 
