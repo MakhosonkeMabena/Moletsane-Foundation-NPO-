@@ -771,13 +771,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
         11. Subscribe
 --------------------------------------*/
 .subscription{
-    background: #383837;
+    background: #1b1e20;
     padding:150px 0;
     transition: 3s;
 }
-.subscription:hover{
-    background-color: #1b1e20;
-}
+
 /*subscribe-title*/
  .subscribe-title {margin-bottom: 52px;}
 
@@ -806,9 +804,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 
 .subscription-input-group .subscription-input-form{
     display: inline-block;
-    width: 630px;
+    width: 600px;
     height: 60px;
     padding-left:30px;
+    text-align:center;
+    text-transform: uppercase;
+
+    background-color: #1b1e20;
     font-size: 16px;
     color: #a5adb3;
     -webkit-border-radius:3px;
