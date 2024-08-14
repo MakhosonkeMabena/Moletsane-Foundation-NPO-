@@ -49,10 +49,6 @@ body{
 	overflow-x:hidden;
 }
 
-body:hover{
-    
-}
-
 a,a:hover,a:active,a:focus {
 	display:inline-block;
 	text-decoration:none;
