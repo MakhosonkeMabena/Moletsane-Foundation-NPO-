@@ -42,7 +42,7 @@ font-family: 'Roboto', sans-serif;
 body{
 	font-family: 'Poppins', sans-serif;
 	font-size:14px;
-	color:#a09e9c;
+	color:#f0ece8;
     text-transform:initial;
     max-width:1920px;
     margin:0 auto;
@@ -108,7 +108,7 @@ html,body{height: 100%; background-color: #1d1e1f;}
     text-align: center;
 }
 .section-header h2{
-    color: #505866;
+    color: #ffffff;
     font-size:24px;
     font-weight: 500;
     margin-bottom: 24px;
@@ -894,7 +894,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     font-weight: 400;
     text-transform: capitalize;
 }
-.footer-social {text-align: right;}
+.footer-social {text-align: center;}
 .footer-social .fa-phone:before {
     position: relative;
     top: 2px;
@@ -911,9 +911,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     transition: .3s;
 }
 .footer-social a {
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
     background: #eef2f6;
     text-align: center;
     border-radius: 50%;
