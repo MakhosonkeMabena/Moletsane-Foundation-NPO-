@@ -1105,12 +1105,17 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="subscription-input-group">
-							<form action="#">
-								<input type="text" class="subscription-input-form" placeholder="Enter your name">
+							<form action="https://api.web3forms.com/submit" method="POST">
+								<input type="hidden" name="access_key" value="01f059da-b328-493e-a8f6-e4c0a1b337e3">
+
+								<input type="text" class="subscription-input-form" placeholder="Name">
+								<input type="text" class="subscription-input-form" placeholder="LastName">
+								<input type="text" class="subscription-input-form" placeholder="Phone no.">
+
 							
-								<input type="email" class="subscription-input-form" placeholder="email">
+								<input type="email" id="email" class="subscription-input-form" placeholder="email">
 								<textarea placeholder="message" class="subscription-input-form" name="message"></textarea>
-								<button class="subscription-input-form" href="makhosonkemabena5@gmail.com">
+								<button type="submit" class="subscription-input-form ">
 									Submit
 								</button>
 								<div class="media-icons1">
