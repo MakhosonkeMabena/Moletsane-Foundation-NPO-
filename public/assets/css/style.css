@@ -89,7 +89,7 @@ ul li {
 	list-style: none;
 	
 }
-select,input,textarea,button{box-shadow:none;outline:0!important; text-align:;}
+select,input,textarea,button{box-shadow:none;outline:0!important;}
 button {background: transparent;border: 0;font-size: 12px; text-transform: uppercase;}
 
 html,body{height: 100%; background: rgb(229, 235, 229);
