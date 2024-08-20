@@ -47,6 +47,7 @@ body{
     max-width:1920px;
     margin:0 auto;
 	overflow-x:hidden;
+    
 }
 
 a,a:hover,a:active,a:focus {
@@ -737,8 +738,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 .sect-1{
     
     display: flex;
-    justify-content: space-evenly;
-    padding: 10px;    
+    padding: 25px;
+    border: 1px solid black;
+        
 }
 .social a{
     text-align: center;
@@ -766,14 +768,30 @@ img{
 
 
 .container-two{
-    width: 300px;
-    margin: 10px;
+    width: 400px;  
+    border: 1px solid black;
+    height: 500px;
+    margin-left: 70px;
     
 
+}
+.founder{
+    display: flex;
+    justify-content: center;
     
 }
-.image-one{
-
+.social{
+    border: 1px solid black ;
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.social a{
+    background-color: #666869;
+    color: rgb(8, 8, 8);
+    width: 50px;
+    border-radius: 50%;
+    line-height: 50px;
 }
 .description{
     border: 2px solid black;
@@ -789,7 +807,7 @@ img{
 .blog-content{margin-top: 10px;}
 
 .image{
-    height: 450px;
+    height: 400px;
 }
 #image{
     width: 400px;
