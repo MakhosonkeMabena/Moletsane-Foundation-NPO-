@@ -731,18 +731,17 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 
 
 .sect-1{
-    border:2px solid #000;
+    
     display: flex;
     justify-content: space-evenly;
     padding: 50px;    
 }
-.sect-1:hover{
 
-}
+
 .sect-1 .image-one{
     
     margin: 10px;
-    border: 1px solid black;
+    
     display: block;
     width: 350px;   
 }
@@ -752,13 +751,19 @@ img{
     
 }
 .container-one h2{
+    margin-bottom: 10px;
+    padding: 10px;
     text-align: center;
     
 }
+.container-one:hover{
+    border-radius: 20%;
+}
+
 .container-two{
     width: 300px;
     margin: 20px;
-    text-align: center;
+    
 
     
 }
@@ -1034,5 +1039,22 @@ iframe{
 @keyframes example {
     0%   {bottom:0px;}
     100%  {bottom:7px;}
+}
+
+section,
+h1,h2,h3,h4,h5,h6,p,img,a { 
+	animation: scrollReveal ease-in-out both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 20%;
+}
+@keyframes scrollReveal {
+    from{
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    to{
+      opacity: 1;
+      transform: translateY(0);
+    }
 }
 /*========================Thank you=================
