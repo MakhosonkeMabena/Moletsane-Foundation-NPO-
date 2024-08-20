@@ -740,6 +740,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     justify-content: space-evenly;
     padding: 10px;    
 }
+.social a{
+    text-align: center;
+}
 
 
 .sect-1 .image-one{
