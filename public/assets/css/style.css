@@ -734,7 +734,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     
     display: flex;
     justify-content: space-evenly;
-    padding: 50px;    
+    padding: 10px;    
 }
 
 
@@ -756,13 +756,11 @@ img{
     text-align: center;
     
 }
-.container-one:hover{
-    border-radius: 20%;
-}
+
 
 .container-two{
     width: 300px;
-    margin: 20px;
+    margin: 10px;
     
 
     
