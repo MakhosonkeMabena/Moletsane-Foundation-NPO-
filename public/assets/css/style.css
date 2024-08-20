@@ -257,6 +257,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     text-align: center;
     height:500px;
     z-index: 1;
+    
 }
 .welcome-hero:before{
     position: absolute;
@@ -390,8 +391,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 /*-------------------------------------
         6. Works 
 --------------------------------------*/
-.works{padding: 0 0 90px;}
-.works-content {margin-top: 73px;}
+.works{padding:  50px 0 90px;}
+.works-content {margin-top: 40px;}
+
 
 .single-how-works{
     text-align: center;
@@ -417,10 +419,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 }
 .single-how-works h2 a {
     font-size:  18px;
-    margin: 35px 0 20px;
+    margin: 10px 0 20px;
 }
+
+
 .single-how-works h2 a span {text-transform:  lowercase;}
-.single-how-works p {margin-bottom: 25px;text-transform: initial;}
+.single-how-works p {margin-bottom: 20px;text-transform: initial;}
 
 .single-how-works-icon [class^="flaticon-"]:before,.single-how-works-icon [class*=" flaticon-"]:before,.single-how-works-icon [class^="flaticon-"]:after,.single-how-works-icon [class*=" flaticon-"]:after {font-size: 35px;}
 .single-how-works:hover .single-how-works-icon [class^="flaticon-"]:before,.single-how-works:hover .single-how-works-icon [class*=" flaticon-"]:before,.single-how-works:hover .single-how-works-icon [class^="flaticon-"]:after,.single-how-works:hover .single-how-works-icon [class*=" flaticon-"]:after {color:#3cdd57;}
