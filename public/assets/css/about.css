@@ -12,6 +12,23 @@
     z-index: 1;
     
 }
+
+.welcome {
+    position: relative;
+    background:url(../images/welcome-hero/WhatsApp\ Image\ 2024-08-13\ at\ 6.23.23\ PM.jpeg)no-repeat;
+    background-position:center;
+    background-size:cover;
+
+    text-align: center;
+    height:500px;
+    z-index: 1;
+    
+}
+
+
+.num{
+    font-size: larger;
+}
 .welcome-hero:before{
     position: absolute;
     content: " ";
@@ -22,19 +39,19 @@
     background:rgba(65,73,89,.65);
     z-index: -1;
 }
-.welcome-hero-txt { padding-top: 155px;}
+.welcome-txt { padding-top: 155px;}
 
-.welcome-hero-txt h2 {
+.welcome-txt h2 {
     font-size: 48px;
-    color: #fff;
+    color: #a4e2a7;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2.4px;
     line-height: 1.4;
 }
-.welcome-hero-txt p {
+.welcome-txt p {
     font-size: 18px;
-    color: #fcfcfc;
+    color: #a4e2a7;
     margin-top: 25px;
 }
 
@@ -98,4 +115,120 @@
     width:  14px;
     height:  auto;
     margin-left:  12px;
+}
+
+/*-------------------------------------
+        10. Blog
+--------------------------------------*/
+
+
+.sect-1{
+    
+    display: flex;
+    padding: 25px;
+    border: 1px solid black;
+        
+}
+.social a{
+    text-align: center;
+}
+
+
+.sect-1 .image-one{
+    
+    margin: 10px;
+    
+    display: block;
+    width: 350px;   
+}
+img{
+    height:400px;
+    width: 450px;
+    
+}
+.section-header-f h2{ 
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+
+.container-two{
+    width: 400px;  
+    border: 1px solid black;
+    height: 500px;
+    margin-left: 70px;
+    
+
+}
+.founder h2{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    border-bottom: 10;
+    
+    
+    
+}
+.social{
+    border: 1px solid black ;
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.social a{
+    background-color: #666869;
+    color: rgb(8, 8, 8);
+    width: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+}
+.description{
+    margin-bottom: 10px;
+    text-align: center;
+
+    
+
+}
+.container-founder{
+    padding: 0;
+}
+.founder{padding:50px 0 50px;}
+.founder-content{margin-top: 10px;}
+
+.image{
+    height: 400px;
+}
+#image{
+    width: 450px;
+}
+
+.founder-item{
+    margin-bottom: 10px;
+    -webkit-transition: .3s; 
+    -moz-transition:.3s; 
+    -ms-transition:.3s; 
+    -o-transition:.3s;
+    transition: .3s;
+}
+.founder-txt {padding:  20px 20px 20px;}
+.founder-txt h2 a {text-transform:  initial;line-height: 1.8; font-size: 20px;}
+.founder-txt h4 {
+    font-size:  14px;
+    color:  #bdc3ce;
+    font-weight:  400;
+    margin: 12px 0 20px;
+}
+.founder-txt h4 a {
+    font-size:  14px;
+    padding-right:  14px;
+    margin-right:  15px;
+    text-transform: uppercase;
+}
+
+.founder-item:hover h2 a {color:rgb(206, 219, 206);}
+
+.founder-item:hover{
+
 }
