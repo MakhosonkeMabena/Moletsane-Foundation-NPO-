@@ -43,7 +43,7 @@
 
 .welcome-txt h2 {
     font-size: 48px;
-    color: #b8beb8;
+    color: #fafffa;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2.4px;
@@ -51,7 +51,7 @@
 }
 .welcome-txt p {
     font-size: 18px;
-    color: #a4e2a7;
+    color: #ecf3ec;
     margin-top: 25px;
 }
 
