@@ -62,7 +62,7 @@ a,a:hover,a:active,a:focus {
 h1,h2,h3,h4,h5,h6 { 
 	margin: 0;
 	color:#090c0e;
-    font-size: 18px;
+    font-size: 50px;
     font-weight: 500;
     text-transform: capitalize;
 }
@@ -595,12 +595,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #17b83a;}
 /*-------------------------------------
         8. Reviews
 --------------------------------------*/
-.reviews{}
+.reviews{ padding-top: 20px;}
 .reviews-content {}
 
 /*single-testimonial-box */
 .single-testimonial-box  {
-    padding: ;
     box-shadow: 0 0px 5px rgba(71,71,71,.2); 
     overflow: hidden;
    
@@ -620,7 +619,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #17b83a;}
 }
 .testimonial-img {
     position: relative;
-    height: 350px;
+    height: 300px;
 }
 .testimonial-person {
     
@@ -791,12 +790,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: #17b83a;}
 .container{
     padding: 0;
 }
-.blog{padding:50px 0 50px;}
+.blog{padding:30px 0 30px;}
 .blog-content{margin-top: 10px;}
 
 .image{
-    height: 400px;
+    height:fit-content;
 }
+
 #image{
     width: 400px;
 }
