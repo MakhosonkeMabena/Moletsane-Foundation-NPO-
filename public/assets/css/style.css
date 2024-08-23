@@ -1064,7 +1064,7 @@ iframe{
     100%  {bottom:7px;}
 }
 
-section,
+/*section,
 h1,h2,h3,h4,h5,h6,p,img,a { 
 	animation: scrollReveal ease-in-out both;
     animation-timeline: view();
@@ -1079,5 +1079,5 @@ h1,h2,h3,h4,h5,h6,p,img,a {
       opacity: 1;
       transform: translateY(0);
     }
-}
-/*========================Thank you=================
+}*/
+/*========================Thank you=================*/
