@@ -61,9 +61,9 @@ a,a:hover,a:active,a:focus {
 }
 h1,h2,h3,h4,h5,h6 { 
 	margin: 0;
-	color:#090c0e;
+	color:#494d50;
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 500px;
     text-transform: capitalize;
 }
 p {
@@ -262,15 +262,25 @@ nav.navbar.bootsnav .navbar-toggle i{color: #17b83a;}
 }
 .welcome-part {
     position: relative;
-    background:url(../images/welcome-hero/448497583_491060953447717_8127619407630419513_n.jpg)no-repeat;
+    background:url(../images/welcome-hero/169594615_121977299951281_830740700196093514_n.jpg)no-repeat;
     background-position:center;
     background-size:cover;
     text-align: center;
-    height:500px;
+    height:400px;
     z-index: 1;
     
 }
 .welcome-hero:before{
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(65,73,89,.65);
+    z-index: -1;
+}
+.welcome-part:before{
     position: absolute;
     content: " ";
     top: 0;
@@ -847,8 +857,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #17b83a;}
         11. Subscribe
 --------------------------------------*/
 .subscription{
-    background: #1b1e20;
-    padding:150px 0;
+    background: #303436;
+    padding: 50px 0;
     transition: 3s;
 }
 
