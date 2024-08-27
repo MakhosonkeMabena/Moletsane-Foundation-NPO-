@@ -121,3 +121,11 @@
     height:  auto;
     margin-left:  12px;
 }
+
+textarea{
+    padding-top: 10px;
+}
+
+.welcome-hero-txt, h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
