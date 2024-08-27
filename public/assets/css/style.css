@@ -616,7 +616,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #17b83a;}
         8. Reviews
 --------------------------------------*/
 .reviews{ padding-top: 20px;}
-.reviews-content {}
+.reviews-content {
+    
+}
 
 /*single-testimonial-box */
 .single-testimonial-box  {
@@ -970,7 +972,7 @@ iframe{
 .footer-menu ul.footer-menu-item li{display:inline;}
 .footer-menu ul.footer-menu-item li a {
     color: #18191a;
-    font-size: 14px;
+    font-size: 15px;
     text-transform: uppercase;
     padding-left: 40px;
     -webkit-transition:0.3s linear;
@@ -997,7 +999,7 @@ iframe{
 .footer-social a ,.footer-social span {
     display: inline-block;
     color: #131414;
-    font-size: 14px;
+    font-size: 15px;
     margin-left: 15px;
     -webkit-transition: .3s; 
     -moz-transition:.3s; 
