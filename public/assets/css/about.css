@@ -3,10 +3,10 @@
 --------------------------------------*/
 .welcome-hero {
     position: relative;
-    background:url(../images/welcome-hero/Eh3cLEbWoAIP5Nx.jpg)no-repeat;
-    background-position:center;
-    background-size:cover;
-
+    background:url(../images/welcome-hero/Eh3cLEbWoAIP5Nx.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     height:500px;
     z-index: 1;
@@ -15,10 +15,10 @@
 
 .welcome {
     position: relative;
-    background:url(../images/welcome-hero/pexels-andy-barbour-5500958.jpg)no-repeat;
+    background:url(../images/welcome-hero/pexels-andy-barbour-5500958.jpg);
     background-position:center;
-    background-size:cover;
-
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     height:500px;
     z-index: 1;
@@ -50,7 +50,7 @@
 .welcome-txt { padding-top: 155px;}
 
 .welcome-txt h2 {
-    font-size: 48px;
+    font-size: 28px;
     color: #fafffa;
     font-weight: 700;
     text-transform: uppercase;
