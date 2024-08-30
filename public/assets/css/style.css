@@ -110,6 +110,11 @@ html,body{height: 100%; background: rgb(229, 235, 229);
     position: relative;
     text-align: center;
 }
+
+.section-header-f h2 {
+    padding: 40px !important;
+}
+
 .section-header h2{
     color: #1a1717;
     font-size:24px;
@@ -417,6 +422,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #17b83a;}
 
 
 .single-how-works{
+    height: 350px;
     text-align: center;
     padding:50px 42px;
     border-radius: 3px;
@@ -642,10 +648,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #17b83a;}
 .testimonial-img {
     position: relative;
     height: 300px;
+    object-fit: cover;
 }
-.testimonial-person {
+/* .testimonial-person {
     
-}
+} */
 .testimonial-person h2 {
     color: #505866;
     font-size: 18px;
@@ -765,7 +772,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #17b83a;}
 .image{
     height:400px;
     width: 450px;
-    
+    object-fit: contain;
+    object-position: center;
 }
 .container-one h2{
     margin-bottom: 10px;
@@ -786,8 +794,23 @@ nav.navbar.bootsnav .navbar-toggle i{color: #17b83a;}
 .founder{
     display: flex;
     justify-content: center;
-    
+    margin: auto 80px;
+    text-align: justify;
 }
+
+.founder .founder-txt p a .bi,
+.founder .founder-txt p a .fa {
+    padding: 0.9375rem;
+}
+
+/* .founder .founder-img {
+    padding: 10px;
+}
+
+.founder .founder-img p {
+    padding: 40px;
+} */
+
 .social{
     border: 1px solid black ;
     display:flex;
@@ -815,12 +838,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: #17b83a;}
 .blog-content{margin-top: 10px;}
 
 .image{
-    height:fit-content;
+    object-fit: cover;
+    object-position: top;
 }
 
-#image{
-    width: 400px;
-}
+/* #image{
+    
+} */
 
 .single-blog-item{
     margin-bottom: 10px;
