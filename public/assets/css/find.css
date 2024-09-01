@@ -4,7 +4,7 @@
 --------------------------------------*/
 .welcome-hero {
     position: relative;
-    background:url(../);
+    background:url(../images/welcome-hero/soweto.jpg);
     background-position:center;
     background-size:cover;
     margin-bottom: 10px;
