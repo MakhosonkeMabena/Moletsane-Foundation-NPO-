@@ -59,56 +59,6 @@
     </head>
 	
 	<body>
-		<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-		
-		<!--header-top start 
-		<header id="header-top" class="header-top">
-			<ul>
-				<li>
-					<div class="header-top-left">
-						<ul>
-							<li class="select-opt">
-								<select name="language" id="language">
-									<option value="default">EN</option>
-									<option value="Bangla">BN</option>
-									<option value="Arabic">AB</option>
-								</select>
-							</li>
-							<li class="select-opt">
-								<select name="currency" id="currency">
-									<option value="usd">USD</option>
-									<option value="euro">Euro</option>
-									<option value="bdt">BDT</option>
-								</select>
-							</li>
-							<li class="select-opt">
-								<a href="#"><span class="lnr lnr-magnifier"></span></a>
-							</li>
-						</ul>
-					</div>
-				</li>
-				<li class="head-responsive-right pull-right">
-					<div class="header-top-right">
-						<ul>
-							<li class="header-top-contact">
-								+1 222 777 6565
-							</li>
-							<li class="header-top-contact">
-								<a href="#">sign in</a>
-							</li>
-							<li class="header-top-contact">
-								<a href="#">register</a>
-							</li>
-						</ul>
-					</div>
-				</li>
-			</ul>
-					
-		</header>
-		-->
-
 		<!-- top-area Start -->
 		<section class="top-area">
 			<div class="header-area">
@@ -264,19 +214,24 @@
 			  </div>
 			  <div class="footer-section contact-form">
 				<h3>Contact Us</h3>
-				<form action="https://formspree.io/f/mvgpwgjk" method="post">
-				  <input type="email" placeholder="Your email" name="email" required>
-				  <textarea placeholder="Your message" name="message" required></textarea>
-				  <button type="submit">Send</button><br><br>
-
-				  <a href="https://www.facebook.com/moletsane.foundations?mibextid=AQBXeECoIFSgMqhe" target="_blank"><i class="fa fa-facebook"></i></a>
-				  <a href="https://wa.me/+27609572895"  target="_blank"><i class="bi bi-whatsapp"></i></a>
-
+				<form action="https://formspree.io/f/mvgpwgjk" method="post" onsubmit="handleFormSubmit(event)">
+					<input type="text" placeholder="Your name" name="name" required><br><br>
+					<input type="email" placeholder="Your email" name="email" required><br><br>
+					<textarea placeholder="Your message" name="message" required></textarea><br><br>
+					<button type="submit">Send</button><br><br>
 				</form>
+				
+				<!-- Success message container -->
+				<div id="success-message" style="display: none; margin-top: 20px;">
+					<p class="text-success">Your message has been sent successfully!</p>
+					<a href="index.html" class="btn btn-secondary">Go Back Home</a>
+				</div>
+				<a href="https://www.facebook.com/moletsane.foundations?mibextid=AQBXeECoIFSgMqhe" target="_blank"><i class="fa fa-facebook"></i></a>
+				<a href="https://wa.me/+27609572895"  target="_blank"><i class="bi bi-whatsapp"></i></a>
 			  </div>
 			</div>
 			<div class="footer-bottom">
-			  <p>&copy; 2024 Rlabs | Makhosonke, Swelihle and Junior</p>
+			  <p>Moletsane Foundation &copy; 2024 | Designed by Makhosonke, Swelihle and Junior</p>
 			</div>
 			<div id="scroll-Top">
 				<div class="return-to-top">
@@ -284,7 +239,33 @@
 				</div>
 				
 			</div><!--/.scroll-Top-->
-		  </footer>
+		</footer>
+
+		<script>
+			function handleFormSubmit(event) {
+				event.preventDefault();
+				
+				const form = event.target;
+				const formData = new FormData(form);
+			
+				fetch(form.action, {
+					method: form.method,
+					body: formData,
+					headers: {
+						'Accept': 'application/json'
+					}
+				}).then(response => {
+					if (response.ok) {
+						form.style.display = 'none';
+						document.getElementById('success-message').style.display = 'block';
+					} else {
+						alert("There was an error submitting the form. Please try again.");
+					}
+				}).catch(error => {
+					alert("Oops! There was a problem submitting your form.");
+				});
+			}
+		</script>
 		
 		
 		<!-- Include all js compiled plugins (below), or include individual files as needed -->
@@ -314,6 +295,7 @@
 		     
         <!--Custom JS-->
         <script src="assets/js/custom.js"></script>
+			
         
     </body>
 	

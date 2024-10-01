@@ -120,124 +120,155 @@
         <!--welcome-hero end -->
     
 
-<!--subscription strat -->
-<section id="donations"  class="subscription">
-    <div class="container">
-        <div class="subscribe-title text-center">
-            <h2>
-                If you would like to donate to Moletsane Foundation NPO
-            </h2>
-            <br/>
-            <p>
-                You can send us an email describing how you would like to help
-            
-            </p> 
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="subscription-input-group">
-                    <form action="https://formspree.io/f/mvgpwgjk" method="POST">
-                        <input type="text" class="subscription-input-form" name="name" placeholder="Name" required><br/>
-                        <input type="text" class="subscription-input-form" name="last-name" placeholder="Last-Name" required><br/>
-                        <input type="text" class="subscription-input-form" name="phone" placeholder="Phone no." required><br/>
-                        <input type="email" id="email" class="subscription-input-form" name="email"placeholder="email" required><br/>
-                        <textarea class="subscription-input-form" rows="4" placeholder="Message"></textarea><br/><br/>
-                        <button type="submit" class="form-button">
-                            Submit
-                        </button>
-                        
-                    </form>
+        <!--subscription strat -->
+        <section id="donations"  class="subscription">
+            <div class="container">
+                <div class="subscribe-title text-center">
+                    <h2>
+                        If you would like to donate to Moletsane Foundation NPO
+                    </h2>
+                    <br/>
+                    <p>
+                        You can send us an email describing how you would like to help
+                    
+                    </p> 
                 </div>
-            </div>	
-        </div>
-    </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="subscription-input-group">
+                            <form action="https://formspree.io/f/mvgpwgjk" method="POST">
+                                <input type="text" class="subscription-input-form" name="name" placeholder="Name" required><br/><br/>
+                                <input type="text" class="subscription-input-form" name="last-name" placeholder="Last Name" required><br/><br/>
+                                <input type="text" class="subscription-input-form" name="phone" placeholder="Phone no." required><br/><br/>
+                                <input type="email" id="email" class="subscription-input-form" name="email" placeholder="Email" required><br/><br/>
+                                <textarea class="subscription-input-form" rows="4" name="message" placeholder="Message"></textarea><br/><br/>
+                                <button type="submit" class="form-button">Submit</button>
+                            </form>
+                        </div>
+                    </div>	
+                </div>
+            </div>
 
-</section><!--/subscription-->	
-<!--subscription end -->
+        </section><!--/subscription-->	
+        <!--subscription end -->
+            
 
-<section id="home" class="welcome-donate">
-    <div class="container">
-        <div class="welcome-hero-txt">
-            <h2>Banking Details</h2><br/>
-            <h2>Account Number:63088584818</h2>
-            <h2>Account number:250655</h2>
-            <p>
-                Morale, Love and Responsibilities
-            </p>
-        </div>
-    </div>
+        <section id="home" class="welcome-donate">
+            <div class="container">
+                <div class="welcome-hero-txt">
+                    <h2>Banking Details</h2><br/>
+                    <h2>Account Number:63088584818</h2>
+                    <h2>Account number:250655</h2>
+                    <p>
+                        Morale, Love and Responsibilities
+                    </p>
+                </div>
+            </div>
 
-</section><!--/.welcome-hero-->
-<!--welcome-hero end -->
+        </section><!--/.welcome-hero-->
+        <!--welcome-hero end -->
+		
+		<footer id="footer">
+			<div class="footer-container">
+			  <div class="footer-section about">
+				<h3>About Us</h3>
+				<p>
+				  We are a community-focused organization dedicated to bringing positive change.
+				</p><br/><br><br/>
+				<h3>Where to find us</h3>
+				<a href="find.html" class="Location"><p><i class="bi bi-geo-alt-fill"></i></p></a>
+			  </div>
+			  <div class="footer-section links">
+				<h3>Quick Links</h3>
+				<ul>
+					<li class="scroll active"><a href="#home">home</a></li>
+					<li ><a href="about.html">About</a></li>
+				   <!--<li class="scroll"><a href="#explore">explore</a></li>-->
+					<li ><a href="engagements.html">Engagements</a></li>
+					<li class="scroll"><a href="#footer">Contact</a></li>
+					<li ><a href="donations.html">Donate</a></li>
+				</ul>
+			  </div>
+			  <div class="footer-section contact-form">
+				<h3>Contact Us</h3>
+				<form action="https://formspree.io/f/mvgpwgjk" method="post" onsubmit="handleFormSubmit(event)">
+					<input type="text" placeholder="Your name" name="name" required><br><br>
+					<input type="email" placeholder="Your email" name="email" required><br><br>
+					<textarea placeholder="Your message" name="message" required></textarea><br><br>
+					<button type="submit">Send</button><br><br>
+				</form>
+				
+				<!-- Success message container -->
+				<div id="success-message" style="display: none; margin-top: 20px;">
+					<p class="text-success">Your message has been sent successfully!</p>
+					<a href="index.html" class="btn btn-secondary">Go Back Home</a>
+				</div>
+				<a href="https://www.facebook.com/moletsane.foundations?mibextid=AQBXeECoIFSgMqhe" target="_blank"><i class="fa fa-facebook"></i></a>
+				<a href="https://wa.me/+27609572895"  target="_blank"><i class="bi bi-whatsapp"></i></a>
+			  </div>
+			</div>
+			<div class="footer-bottom">
+			  <p>Moletsane Foundation &copy; 2024 | Designed by Makhosonke, Swelihle and Junior</p>
+			</div>
+			<div id="scroll-Top">
+				<div class="return-to-top">
+					<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+				</div>
+				
+			</div><!--/.scroll-Top-->
+		</footer>
 
-<footer id="footer">
-    <div class="footer-container">
-      <div class="footer-section about">
-        <h3>About Us</h3>
-        <p>
-          We are a community-focused organization dedicated to bringing positive change.
-        </p><br/><br/><br/>
-        <h3>Where to find us</h3>
-		<a href="find.html" class="Location"><p><i class="bi bi-geo-alt-fill"></i></p></a>
-      </div>
-      <div class="footer-section links">
-        <h3>Quick Links</h3>
-        <ul>
-            <li ><a href="index.html">home</a></li>
-            <li ><a href="about.html">About</a></li>
-           <!--<li class="scroll"><a href="#explore">explore</a></li>-->
-            <li ><a href="engagements.html">Engagements</a></li>
-            <li class="scroll"><a href="#footer">Contact</a></li>
-            <li class="scroll"><a href="#donations">Donate</a></li>
-        </ul>
-      </div>
-      <div class="footer-section contact-form">
-        <h3>Contact Us</h3>
-        <form action="https://formspree.io/f/mvgpwgjk" method="post">
-          <input type="email" placeholder="Your email" name="email" required>
-          <textarea placeholder="Your message" name="message" required></textarea>
-          <button type="submit">Send</button><br/><br/>
-          <a href="https://www.facebook.com/moletsane.foundations?mibextid=AQBXeECoIFSgMqhe" target="_blank"><i class="fa fa-facebook"></i></a>
-		  <a href="https://wa.me/+27609572895"  target="_blank"><i class="bi bi-whatsapp"></i></a>
-        </form>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy; 2024 Rlabs | Makhosonke, Swelihle and Junior</p>
-    </div>
-    <div id="scroll-Top">
-        <div class="return-to-top">
-            <i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
-        </div>
-        
-    </div><!--/.scroll-Top-->
-  </footer> 
+		<script>
+			function handleFormSubmit(event) {
+				event.preventDefault();
+				
+				const form = event.target;
+				const formData = new FormData(form);
+			
+				fetch(form.action, {
+					method: form.method,
+					body: formData,
+					headers: {
+						'Accept': 'application/json'
+					}
+				}).then(response => {
+					if (response.ok) {
+						form.style.display = 'none';
+						document.getElementById('success-message').style.display = 'block';
+					} else {
+						alert("There was an error submitting the form. Please try again.");
+					}
+				}).catch(error => {
+					alert("Oops! There was a problem submitting your form.");
+				});
+			}
+		</script> 
 
-<script src="assets/js/jquery.js"></script>
-        
-<!--modernizr.min.js-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script src="assets/js/jquery.js"></script>
+                
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
-<!--bootstrap.min.js-->
-<script src="assets/js/bootstrap.min.js"></script>
+        <!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
 
-<!-- bootsnav js -->
-<script src="assets/js/bootsnav.js"></script>
+        <!-- bootsnav js -->
+        <script src="assets/js/bootsnav.js"></script>
 
-<!--feather.min.js-->
-<script  src="assets/js/feather.min.js"></script>
+        <!--feather.min.js-->
+        <script  src="assets/js/feather.min.js"></script>
 
-<!-- counter js -->
-<script src="assets/js/jquery.counterup.min.js"></script>
-<script src="assets/js/waypoints.min.js"></script>
+        <!-- counter js -->
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <script src="assets/js/waypoints.min.js"></script>
 
-<!--slick.min.js-->
-<script src="assets/js/slick.min.js"></script>
+        <!--slick.min.js-->
+        <script src="assets/js/slick.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-     
-<!--Custom JS-->
-<script src="assets/js/custom.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+            
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
          
 </body>
 </html>
